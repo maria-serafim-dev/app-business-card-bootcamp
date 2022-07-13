@@ -10,4 +10,5 @@
     <string name="btn_confirm">Confirmar</string>
     <string name="cd_image_close">Ícone com a letra X para fechar a tela</string>
     <string name="cd_button_add">"Botão com um ícone de mais para adicionar um novo cartão "</string>
+    <string name="label_show_success">Cartão cadastrado com sucesso</string>
 </resources>

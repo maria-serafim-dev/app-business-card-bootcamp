@@ -24,10 +24,10 @@
             android:textStyle="bold"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            tools:text="Maria Aparecida Serafim" />
+            tools:text="Nome Completo" />
 
         <com.google.android.material.textview.MaterialTextView
-            android:id="@+id/tvTelefone"
+            android:id="@+id/tvPhone"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
@@ -41,11 +41,11 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/tvTelefone"
-            tools:text="(45)45454545" />
+            app:layout_constraintTop_toBottomOf="@id/tvPhone"
+            tools:text="empresa@email.com" />
 
         <com.google.android.material.textview.MaterialTextView
-            android:id="@+id/tvNomeEmpresa"
+            android:id="@+id/tvBusinessName"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
