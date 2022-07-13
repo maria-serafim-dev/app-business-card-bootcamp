@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">BusinessCard</string>
+    <string name="label_business_card">Cartão de visitas</string>
+    <string name="btn_label_description_new_card">Novo Cartão</string>
+    <string name="hint_name">Nome</string>
+    <string name="hint_phone">Telefone</string>
+    <string name="hint_email_address">E-mail</string>
+    <string name="hint_name_business">Empresa</string>
+    <string name="hint_color">Cor</string>
+    <string name="btn_confirm">Confirmar</string>
+    <string name="cd_image_close">Ícone com a letra X para fechar a tela</string>
+    <string name="cd_button_add">"Botão com um ícone de mais para adicionar um novo cartão "</string>
+</resources>
