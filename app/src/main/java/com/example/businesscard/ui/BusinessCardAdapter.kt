@@ -4,9 +4,11 @@ import android.graphics.Color
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
+import com.example.businesscard.R
 import com.example.businesscard.data.BusinessCard
 import com.example.businesscard.databinding.ItemBusinessCardBinding
 
@@ -24,11 +26,23 @@ class BusinessCardAdapter : ListAdapter<BusinessCard, BusinessCardAdapter.ViewHo
                     tvPhone.text = phone
                     tvEmail.text = email
                     tvBusinessName.text = business
+                    if(backgroundColor == "#e0e0e0" || backgroundColor == "#fff176"){
+                        setTextColorBlack()
+                    }
                     root.setCardBackgroundColor(Color.parseColor(backgroundColor))
                     root.setOnClickListener { view ->
                         listenerShare(view)
                     }
                 }
+            }
+        }
+
+        private fun setTextColorBlack() {
+            with(binding) {
+                tvName.setTextColor(ContextCompat.getColor(itemView.context, R.color.black))
+                tvPhone.setTextColor(ContextCompat.getColor(itemView.context, R.color.black))
+                tvEmail.setTextColor(ContextCompat.getColor(itemView.context, R.color.black))
+                tvBusinessName.setTextColor(ContextCompat.getColor(itemView.context, R.color.black))
             }
         }
     }

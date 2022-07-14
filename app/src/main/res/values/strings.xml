@@ -12,4 +12,6 @@
     <string name="cd_button_add">"Botão com um ícone de mais para adicionar um novo cartão "</string>
     <string name="label_show_success">Cartão cadastrado com sucesso</string>
     <string name="label_share">Compartilhar</string>
+    <string name="label_select_color">Selecione a cor do cartão</string>
+    <string name="cd_image_color">Imagem quadrada com a cor de fundo selecionada pelo usuário</string>
 </resources>
